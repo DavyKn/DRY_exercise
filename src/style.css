@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.todo_folder {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  background-color: aqua;
+  margin: 20px auto;
+}
+
+.title_class {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+}
+
+.title_class h1,
+.title_class img {
+  padding: 10px 20px;
+}
+
+.desc {
+  padding: 10px 20px;
+  border: solid 2px #000;
+  color: #d3d3d3;
+  font-style: italic;
+}
+
+li {
+  /* width: 100%; */
+  display: flex;
+  gap: 1em;
+  border-bottom: 1px solid #d3d3d3;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.todo_list li {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.btn_remove {
+  position: absolute;
+  right: 0;
+}
+
+.reload {
+  padding-right: 0.2em;
+}
+
+.content {
+  cursor: text;
+}
